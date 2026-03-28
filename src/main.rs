@@ -1,9 +1,3 @@
-mod modules {
-    pub mod fibonacci;
-    pub mod fizzbuzz;
-}
+pub mod algorithms;
 
-fn main() {
-    println!("fibonacci is {}", modules::fibonacci::fib(4));
-    modules::fizzbuzz::fizzbuzz();
-}
+fn main() {}
