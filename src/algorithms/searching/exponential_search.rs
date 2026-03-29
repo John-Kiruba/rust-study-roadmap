@@ -6,10 +6,6 @@ pub fn exponential_search<T: Ord>(item: &T, arr: &[T]) -> Option<usize> {
         return None;
     }
 
-    if &arr[0] == item {
-        return Some(0);
-    }
-
     let mut upper = 1;
 
     while upper < len && arr[upper].cmp(item) != Ordering::Greater {
