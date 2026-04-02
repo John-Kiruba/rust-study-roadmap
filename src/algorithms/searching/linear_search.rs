@@ -4,7 +4,6 @@ pub fn linear_search<T: Ord>(item: &T, arr: &[T]) -> Option<usize> {
             return Some(i);
         }
     }
-
     None
 }
 
